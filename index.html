@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Aloha Apparel</title>
+    <link rel="stylesheet" type="text/css" href=".//reset.css">
+    <link rel="stylesheet" type="text/css" href=".//stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="flick.\css">
+</head>
+
+<body>
+   <header class="site-header container">
+      <div class="logo">
+         <h1 class="screen-reader">Aloha</h1>
+         <img src="images/aloha-logo.svg" alt="Aloha Apparel Co. logo" />
+      </div>
+      <div class="cart">
+         <span class="screen-reader">Shopping Cart</span>
+         <img src="images/cart-icon.svg" class="cart" alt="Shopping cart" />
+      </div>
+      <nav class="main-navigation">
+         <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Shop</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#newsletter">Updates</a></li>
+         </ul>
+      </nav>
+   </header>
+ <!--new-->
+    
+    <nav class="nav">
+        <ul>
+            <section class="banner">
+                <div class="banner-text container">
+                    <p class="collection">New Collection</p>
+                    <p class="season">Spring/Summer 2016</p>
+                </div>
+            </section>
+            <section class="about">
+                <div class="about-text container">
+                    <h2>Hand-Crafted <span class="heavy">Styles</span></h2>
+                    <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products
+                        or sign-up for updates below.</p>
+                </div>
+            </section>
+            <!--flex box and pictures goes here6 cator stretch goals-->
+            <section class="featured">
+                <div class="container">
+                    <h2>Most-Loved <span class="heavy">Products</span></h2>
+                    <ul class="product-list clearfix">
+                        <section class="most-loved" id="most-loved">
+                            <div class="contain">
+                                <h2>Most-Loved <span class="emphasis">Products</span></h2>
+                                <div class="carousel" data-flickity='{ "lazyLoad": true, "prevNextButtons": false , "contain": true}'>
+                                    <div class="carousel-cell">
+                                        <div class="product-info">
+                                            <img src="images/stretch-knit-dress.jpg" alt="Image of stretch knit dress">
+                                            <p>Dresses</p>
+                                            <h3>Stretch Knit Dress</h3>
+                                            <p>$169.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <div class="product-info">
+                                            <img src="images/cotton-blue-shirt.jpg" alt="Image of cotton blue shirt">
+                                            <p>Shirts</p>
+                                            <h3>Cotton Blue Shirt</h3>
+                                            <p>$89.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <div class="product-info">
+                                            <img src="images/checked-stretch-dress.jpg" alt="Image of checked stretch dress">
+                                            <p class="product-type">Dresses</p>
+                                            <h3>Checked Stretch Dress</h3>
+                                            <p class="price">$129.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <div class="product-info">
+                                            <img src="images/blue-hipster-backpack.jpg" alt="Image of blue hipster backpack">
+                                            <p class="product-type">Bags</p>
+                                            <h3>Blue Hipster Backpack</h3>
+                                            <p class="price">$69.00</p>
+                                        </div>
+                                    </div>
+                                    <!--flickity-->
+                                    <div class="carousel-cell">
+                                        <div class="product-info">
+                                            <img src="images/demin-overall-shorts.jpg" alt="Image of demin overall shorts">
+                                            <p class="product-type">Demin</p>
+                                            <h3>Demin Overall Shorts</h3>
+                                            <p class="price">$89.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <div class="product-info">
+                                            <img src="images/pink-dotted-dress.jpg" alt="Image of pink dotted dress">
+                                            <p class="product-type">Dresses</p>
+                                            <h3>Pink Dotted Dress</h3>
+                                            <p class="price">$99.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <div class="product-info">
+                                            <img src="images/blue-silk-dress.jpg" alt="Image of blue silk dress">
+                                            <p class="product-type">Dresses</p>
+                                            <h3>Blue Silk Dress</h3>
+                                            <p class="price">$119.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <div class="product-info">
+                                            <img src="images/cotton-yellow-tshirt.jpg" alt="Image of cotton yellow tshirt">
+                                            <p>Shirts</p>
+                                            <h3>Cotton Yellow Tshirt</h3>
+                                            <p class="product-info">$39.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="updates" id="updates">
+                            <h2>Sign-up for <span class="emphasis">Updates</span></h2>
+                            <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get
+                                free style tips from our blog. Unsubscribe at any time.</p>
+                            <form class="updates-form">
+                                <input type="email" value="Your email" id="email">
+                                <input type="button" name="subscribe" value="Subscribe" id="updatesbutton">
+                            </form>
+                        </section>
+                        <footer class=" container clearfix">
+                            <div class="contact-group clearfix">
+                                <div class="copyRight">
+                                    <p>&#169; 2016 Aloha Apparel Co.</p>
+                                    <p>Powered by HTML and CSS.</p>
+                                </div>
+                                <div class="phoneEmail">
+                                    <p>604-604-6040. <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a> </p>
+                                </div>
+                                <address>
+                                    <p>1490 W Broadway</p>
+                                    <p>Vancouver,BC, Canada</p>
+                                </address>
+                            </div>
+                            <div class="social-media  clearfix">
+                                <ul>
+                                    <li><i class="fa fa-facebook-official" aria-hidden="true"></i><span class="social-text">Facebook</span>                                        </li>
+                                    <li><i class="fa fa-twitter" aria-hidden="true"></i><span class="social-text">Twitter</span>                                        </li>
+                                    <li><i class="fa fa-instagram" aria-hidden="true"></i><span class="social-text">Instagram</span></li>
+                                    <li><i class="fa fa-pinterest" aria-hidden="true"></i><span class="social-text">Pinterest</span>                                        </li>
+                                    <li><i class="fa fa-google-plus" aria-hidden="true"></i><span class="social-text">Google+</span></li>
+                                </ul>
+                            </div>
+                        </footer>
+                        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+                        <script src=".//js/flickity.pkgd.min.js"></script>
+                        <script src=".//js/script.js"></script>
+</body>
+
+</html>
