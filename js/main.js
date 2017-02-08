@@ -26,7 +26,7 @@ $(function(){
         $(this).val('');
     });
 
-    $('.buttonWrap').on('click', 'button', function(){
+    $('.buttonWrap').on('click', 'button', function(event){
         console.log(this);
         event.preventDefault();
         var textValue = $('.subInput').val();              
