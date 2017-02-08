@@ -1,8 +1,8 @@
-#   Aloha Apparel Homepage -An interactive website displaying images.
+#Aloha Apparel Homepage -An interactive website displaying images.
 Summary of what I've learned and purpose of the functions and methods used.
-    # Technologies Used.
-        * HTML5.
-        * CSS3.
+# Technologies Used.
+ * HTML5.
+ * CSS3.
         * Javascript libraries jQuery.
         * Javascript pluggin Flickity.
         * Third party icon source like FontAwesome.
